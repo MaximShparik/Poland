@@ -18,6 +18,13 @@ $('.grid__slider').slick({
   dots: true
 });
 
+$('.block__slider').slick({
+  autoplay: true,
+  arrows: false,
+  fade: true,
+  dots: true
+});
+
 
 
 });
