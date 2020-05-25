@@ -29,8 +29,6 @@ $('.close__btn').on('click',function(){
   $(this).closest('.grid__content').toggleClass('disabled'),
   $(this).closest('.grid__content').prev().toggleClass('disabled'),
   $(this).closest('.grid__content').prev().addClass('animate__animated animate__fadeIn')
-  // $(this).closest('.grid__content').removeClass('animate__fadeIn').addClass('animate__backOutDown')
-
 });
 
 
